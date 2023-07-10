@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ASSIGNMENT</title>
+</head>
+<body><center><h1 style="font-style: italic;">ASSIGNMENT</h1>
+</center>
+
+	<button onclick="ibk()">click me</button>
+	<script>
+
+		let email = 'awoyodeibukun@gmail.com'
+		let password = 'passworded'
+		let name = 'ibk'
+
+		let q1 = prompt('email address');
+		let q2 = prompt('password')
+		let q3 = prompt('your name')
+		
+		if (q1 === email&& q2===password&& q3===name) {
+			alert('correct')
+		} else{ alert('wrong')}
+	</script>
+
+<style>
+	.formPerson{
+		background: #a32bb3cf;
+		 height: 12em;
+		  width: 15em;
+		   position: absolute;
+		   left: 35%;
+		   top: 5em;
+		   border-radius: 15px;
+		   padding: 2em;
+	}
+	input{
+		outline: none;
+		width: 17em;
+		height: 2em;
+		border-radius: 1em;
+	}
+	button{
+		width: 17em;
+		height: 2em;
+		border: none;
+		outline: none;
+		background-color: skyblue;
+		color: white;
+		border-radius: 1em;
+	}
+</style>
+
+	<main>
+		<div class="formPerson">
+			<h2>IBKSAX WORKS</h2>
+			
+				<p><input id="email" type="email" name="email"></p>
+				<p><input id="pwd" type="password" name="password"></p>
+				<button onclick="ibk()">Login</button>
+		</div>
+	</main>
+
+
+
+</body>
+</html>
